@@ -1,0 +1,15 @@
+C:\Users\Faiza\documents\allDotnet\C-8\bin\Debug\net8.0\C-8.exe
+C:\Users\Faiza\documents\allDotnet\C-8\bin\Debug\net8.0\C-8.deps.json
+C:\Users\Faiza\documents\allDotnet\C-8\bin\Debug\net8.0\C-8.runtimeconfig.json
+C:\Users\Faiza\documents\allDotnet\C-8\bin\Debug\net8.0\C-8.dll
+C:\Users\Faiza\documents\allDotnet\C-8\bin\Debug\net8.0\C-8.pdb
+C:\Users\Faiza\documents\allDotnet\C-8\obj\Debug\net8.0\C-8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Faiza\documents\allDotnet\C-8\obj\Debug\net8.0\C-8.AssemblyInfoInputs.cache
+C:\Users\Faiza\documents\allDotnet\C-8\obj\Debug\net8.0\C-8.AssemblyInfo.cs
+C:\Users\Faiza\documents\allDotnet\C-8\obj\Debug\net8.0\C-8.csproj.CoreCompileInputs.cache
+C:\Users\Faiza\documents\allDotnet\C-8\obj\Debug\net8.0\C-8.sourcelink.json
+C:\Users\Faiza\documents\allDotnet\C-8\obj\Debug\net8.0\C-8.dll
+C:\Users\Faiza\documents\allDotnet\C-8\obj\Debug\net8.0\refint\C-8.dll
+C:\Users\Faiza\documents\allDotnet\C-8\obj\Debug\net8.0\C-8.pdb
+C:\Users\Faiza\documents\allDotnet\C-8\obj\Debug\net8.0\C-8.genruntimeconfig.cache
+C:\Users\Faiza\documents\allDotnet\C-8\obj\Debug\net8.0\ref\C-8.dll
