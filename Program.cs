@@ -96,26 +96,80 @@ foreach (string names in studentNames)
         studentScores = loganScores;
     }
 
-    int sophiaSum = 0;
-    decimal sophiaScore;
+    /*int sophiaSum = 0;
+    decimal sophiaScore;*/
+    int sumAssignmentScores = 0;
 
-    foreach (int score in sophiaScores)
+    decimal currentStudentGrade = 0;
+
+    string currentStudentLetterGrade = "";
+
+    foreach (int score in studentScores)
     {
         // add the exam score to the sum
-        sophiaSum += score;
+        sumAssignmentScores += score;
         // or sophiaSum = sophiaSum + score;
 
     }
-    sophiaScore = (decimal)sophiaSum / currentAssignments;
-    Console.WriteLine("Student\t\tGrade\n");
-    Console.WriteLine("Sophia:\t\t" + sophiaScore + "\tA-");
+    currentStudentGrade = (decimal)sumAssignmentScores / currentAssignments;
 
+    if (currentStudentGrade >= 97)
+    {
+        currentStudentLetterGrade = "A+";
+    }
+    else if (currentStudentGrade >= 93)
+    {
+        currentStudentLetterGrade = "A";
+    }
+    else if (currentStudentGrade >= 90)
+    {
+        currentStudentLetterGrade = "A-";
+    }
+    else if (currentStudentGrade >= 87)
+    {
+        currentStudentLetterGrade = "B+";
+    }
+    else if (currentStudentGrade >= 83)
+    {
+        currentStudentLetterGrade = "B";
 
+    }
+    else if (currentStudentGrade >= 80)
+    {
+        currentStudentLetterGrade = "B-";
+    }
+    else if (currentStudentGrade >= 77)
+    {
+        currentStudentLetterGrade = "C+";
+    }
+    else if (currentStudentGrade >= 73)
+    {
+        currentStudentLetterGrade = "C";
+    }
+    else if (currentStudentGrade >= 70)
+    {
+        currentStudentLetterGrade = "C-";
+    }
+    else if (currentStudentGrade >= 67)
+    {
+        currentStudentLetterGrade = "D+";
+    }
+    else if (currentStudentGrade >= 63)
+    {
+        currentStudentLetterGrade = "D";
+    }
+    else if (currentStudentGrade >= 60)
+    {
+        currentStudentLetterGrade = "D-";
+    }
+    else
+    {
+        currentStudentLetterGrade = "F";
+    }
+    // Console.WriteLine($"{names}\t\t{currentStudentGrade}\t?");
+    //Console.WriteLine($"{currentStudent}\t\t{currentStudentGrade}\t?");
+    Console.WriteLine($"{currentStudent}\t\t{currentStudentGrade}\t{currentStudentLetterGrade}");
 }
 
-/*
-Console.WriteLine("Andrew:\t\t" + andrewScore + "\tB+");
-Console.WriteLine("Emma:\t\t" + emmaScore + "\tB");
-Console.WriteLine("Logan:\t\t" + loganScore + "\tA-");*/
 Console.WriteLine("Press the Enter key to continue");
 Console.ReadLine();
